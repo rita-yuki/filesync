@@ -32,7 +32,8 @@ Filesync
 
 ## データベース設計
 ![alt text](image-1.png)
-## テーブル構造
+## 画面遷移図
+![alt text](image.png)
 
 ### Usersテーブル
 
