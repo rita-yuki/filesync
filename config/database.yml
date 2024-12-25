@@ -8,7 +8,7 @@ development:
   username: root
   password:
   host: localhost
-  database: filesync_development
+  database:filesync_development
 
 test:
   <<: *default
