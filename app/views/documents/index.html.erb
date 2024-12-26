@@ -1,0 +1,41 @@
+<div class='calendar'>
+  <% @week_days.each do |day| %>
+    <div class='item'>
+      <div class='date'>
+        <%= day[:month] %>/ <%= day[:date] %> (<%= day[:wday] %>)
+      </div>
+      <table class="document-table">
+        <thead>
+          <tr>
+            <th>処理開始可能日</th>
+            <th>処理期日</th>
+            <th>受領日</th>
+            <th>顧客名</th>
+            <th>書類名</th>
+            <th>件数</th>
+             <th>渉外担当者名</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% if day[:documents].present? %>
+            <% day[:documents].each do |document| %>
+              <tr>
+                <td><%= document.start_date || 'N/A' %></td>
+                <td><%= document.end_date || 'N/A' %></td>
+                <td><%= document.received_date %></td>
+                <td><%= document.customer_name %></td>
+                <td><%= document.document_name %></td>
+                <td><%= document.quantity %></td>
+                <td><%= user.name %></td>
+              </tr>
+            <% end %>
+          <% else %>
+            <tr>
+              <td colspan="6">No documents for this day</td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  <% end %>
+</div>
