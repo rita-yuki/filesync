@@ -27,6 +27,7 @@
                 <td><%= document.document_name %></td>
                 <td><%= document.quantity %></td>
                 <td><%= user.name %></td>
+                <td><%= link_to '詳細', document_path(document) %></td>
               </tr>
             <% end %>
           <% else %>
