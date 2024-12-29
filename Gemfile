@@ -77,6 +77,5 @@ end
 
 
 gem 'devise', '~> 4.9.4'
-gem 'dotenv-rails', '~> 3.1.7'
 gem 'dotenv-rails','~> 3.1.7', groups: [:development, :test]
 
