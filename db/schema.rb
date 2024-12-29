@@ -24,7 +24,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_12_26_232939) do
 
   create_table "users", charset: "utf8", force: :cascade do |t|
     t.string "employee_number", null: false
-    t.integer "role", null: false
+    t.integer "role", default: 0, null: false
     t.string "user_name", null: false
     t.string "encrypted_password", default: "", null: false
     t.string "reset_password_token"

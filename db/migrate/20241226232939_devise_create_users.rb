@@ -3,7 +3,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[7.0]
     create_table :users do |t|
       ## Database authenticatable
       t.string :employee_number,         null: false, unique: true
-      t.integer :role,                   null: false
+      t.integer :role,                   null: false, default: 0  # 1: 営業担当者, 2: 事務担当者, 3: 役席
       t.string :user_name,               null: false
       t.string :encrypted_password,      null: false, default: ""
       ## Recoverable

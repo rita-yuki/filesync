@@ -25,7 +25,7 @@
             <%= f.label :担当区分 %>
           </div>
           <div class='field-input'>
-            <%= f.text_field :role %>
+            <%= f.select :role, User.roles.keys.map { |r| [r.humanize, r] }, {}, class: "form-control" %>
           </div>
         </div>
         <div class='field'>
