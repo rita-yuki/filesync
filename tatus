@@ -1,0 +1,183 @@
+[33mcommit 1a04492b2702ac7015f31db7723a334b9348b40e[m[33m ([m[1;31morigin/ユーザー登録機能の実装[m[33m, [m[1;32mユーザー登録機能の実装[m[33m)[m
+Merge: 365c312 7d32087
+Author: rita-yuki <yummy.standrews@gmail.com>
+Date:   Sun Dec 29 22:01:30 2024 +0900
+
+    Merge pull request #5 from rita-yuki/main
+    
+    ユーザー登録機能の実装
+
+[33mcommit 7d32087a60c8f82cf8715ecdb7795412ed8fe88e[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 82dc315 ce75a0d
+Author: rita-yuki <yummy.standrews@gmail.com>
+Date:   Sun Dec 29 21:54:18 2024 +0900
+
+    Merge pull request #4 from rita-yuki/ユーザー登録機能の実装
+    
+    ユーザー登録機能の実装
+
+[33mcommit ce75a0daa7b332d4c6f5f229e02e2f2cffc06b7c[m
+Merge: 365c312 82dc315
+Author: rita-yuki <yummy.standrews@gmail.com>
+Date:   Sun Dec 29 21:53:57 2024 +0900
+
+    Merge branch 'main' into ユーザー登録機能の実装
+
+[33mcommit 365c312750a0575b683f907967ccb3d53ba2bc99[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Sun Dec 29 21:42:09 2024 +0900
+
+    Gemfileのコンフリクト解消
+
+[33mcommit 0a1c2917c871cb2388b1de6510283f0eb8b4311a[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Sun Dec 29 19:15:02 2024 +0900
+
+    コンフリクトの解消
+
+[33mcommit 23202a9897a587a4b92cbb45b239a847b7f08ebd[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Sun Dec 29 18:48:15 2024 +0900
+
+    未ログイン時のアクセス制御
+
+[33mcommit 1d26009506860a00c48e037402931a5425272d5a[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Sun Dec 29 18:47:17 2024 +0900
+
+    ログイン済み時エラーメッセージを表示
+
+[33mcommit 528eefc35d3c6b2305c881007546b667c99a6885[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Sun Dec 29 18:44:26 2024 +0900
+
+    リダイレクト先を設定
+
+[33mcommit bf828f168cd6f9db64f1bf6b16928574cb78e7bb[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Sun Dec 29 15:31:40 2024 +0900
+
+    registrations_controllerファイルの作成
+
+[33mcommit 5983b1808982796f213d193a8ee8fd57e2fd53c1[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Sun Dec 29 15:24:51 2024 +0900
+
+    authenticate_user! の設定
+
+[33mcommit 2b1ec75944ad273c3139ddd490db40fafce1b4a2[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Sun Dec 29 15:22:34 2024 +0900
+
+    担当区分の設定
+
+[33mcommit 7684a22587d8ef92f08208b0cee5274c9cc3fc66[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Sat Dec 28 14:24:08 2024 +0900
+
+    社員番号でログインできる仕様に変更
+
+[33mcommit 8d9205cde808f4f61fbc69015c254e6a5d76d7cb[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Sat Dec 28 12:08:59 2024 +0900
+
+    usersテーブルの修正
+
+[33mcommit d7e43231a493c8f9d4333a6ba37498047dc47a1a[m
+Author: rita-yuki <yummy.standrews@gmail.com>
+Date:   Sat Dec 28 10:38:42 2024 +0900
+
+    復元: app/models/document.rb を復元しました
+
+[33mcommit ae569b5248c4e8e56e5207c128ebf2a9282bd0a4[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Sat Dec 28 04:22:29 2024 +0900
+
+    コンフリクトの解消
+
+[33mcommit f2a0c7e559890ffa1fd4f5eae4008434c7a66563[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Sat Dec 28 04:22:14 2024 +0900
+
+    コンフリクトの解消
+
+[33mcommit 3fc1ef442e2cbde0a05105ae6212bcd14e4c10de[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Fri Dec 27 08:50:02 2024 +0900
+
+    usersテーブルの作成
+
+[33mcommit e4a1c0730b87fdfb894b0a17d355b18c2a2891e4[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Fri Dec 27 08:28:43 2024 +0900
+
+    deviseのインストール
+
+[33mcommit 82dc3158841c3475b69b5ba6c4583fbffbbb6c45[m
+Merge: f897d3d 71280bf
+Author: rita-yuki <yummy.standrews@gmail.com>
+Date:   Fri Dec 27 06:21:00 2024 +0900
+
+    Merge pull request #3 from rita-yuki/書類一覧機能の実装
+    
+    書類一覧機能の実装
+
+[33mcommit 71280bf5471dff7288a4b38ce9197abb2ed0119b[m[33m ([m[1;31morigin/書類一覧機能の実装[m[33m, [m[1;32m書類一覧機能の実装[m[33m)[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Fri Dec 27 06:19:50 2024 +0900
+
+    書類一覧機能の実装
+
+[33mcommit f897d3d64893024338027d7548983db6fcd7c7eb[m
+Merge: 1c9b9a4 adeb181
+Author: rita-yuki <yummy.standrews@gmail.com>
+Date:   Thu Dec 26 05:31:33 2024 +0900
+
+    Merge pull request #2 from rita-yuki/デプロイ・Basic認証
+    
+    デプロイ・basic認証
+
+[33mcommit adeb1817aabc797f7ab4cc32c2cf0500cd81e4f5[m[33m ([m[1;31morigin/デプロイ・Basic認証[m[33m, [m[1;32mデプロイ・Basic認証[m[33m)[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Thu Dec 26 05:29:31 2024 +0900
+
+    デプロイ・basic認証の導入
+
+[33mcommit 0bf7249fe1e3758bf9c55a5630fa81fb6c7d4225[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Thu Dec 26 01:41:55 2024 +0900
+
+    database.ymlの実装
+
+[33mcommit 1c9b9a4e9bd3e50d40916930d58856c6c9b18213[m
+Merge: d70948e cd2e316
+Author: rita-yuki <yummy.standrews@gmail.com>
+Date:   Thu Dec 26 01:35:55 2024 +0900
+
+    Merge pull request #1 from rita-yuki/README
+    
+    Readme
+
+[33mcommit cd2e316e1039d906975d6cf50dcc6e974fe05a28[m[33m ([m[1;32mREADME[m[33m)[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Thu Dec 26 01:07:37 2024 +0900
+
+    READMEの作成
+
+[33mcommit d30e085dc4702c0bc81727f31195538f24ab43b5[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Thu Dec 26 00:29:04 2024 +0900
+
+    READMEの作成
+
+[33mcommit 0bb51f56f7bb0ef5d139f48815c4b3142fb27756[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Sat Dec 21 07:21:23 2024 +0900
+
+    READMEの作成
+
+[33mcommit d70948ec92b22590102eb26f489f3c7c589966ac[m[33m ([m[1;36mHEAD -> [m[1;32mヘッダー作成[m[33m, [m[1;31morigin/ヘッダー作成[m[33m, [m[1;32mmain[m[33m)[m
+Author: rita-snow <yummy.standrews@gmail.com>
+Date:   Sat Dec 21 05:23:53 2024 +0900
+
+    first commit
